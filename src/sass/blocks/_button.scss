@@ -1,0 +1,52 @@
+.button {
+    box-sizing: border-box;
+    width: 260px;
+    height: 44px;
+    background: $color-primary-100;
+    border-radius: 15px;
+
+    font-size: 15px;
+    line-height: 20px;
+    color: $color-primary-200;
+    &:hover {
+        background: none;
+        border: 2px solid $color-primary-100;
+        color: $color-primary-100;
+    }
+    &:disabled {
+        opacity: 0.4;
+    }
+    &_car {
+        border: none;
+        width: 290px;
+        height: 48px;
+        background: $color-primary-300;
+        &:hover {
+            border: 2px solid $color-primary-300;
+            color: $color-primary-300;
+            background: #ffffff;
+        }
+    }
+    
+    &_browse {
+        background: none;
+        border:2px solid $color-primary-200;
+        font-size: 20px;
+        &:hover {
+            background: $color-primary-200;
+            border: none;
+        }
+    }
+    &_subscribe {
+        width: 190px;
+        height: 54px;
+        background: $color-primary-200;
+        border: none;
+        color: $color-primary-100;
+        &:hover {
+            background: none;
+            border: 2px solid $color-primary-200;
+            color: $color-primary-200;
+        }
+    }
+}

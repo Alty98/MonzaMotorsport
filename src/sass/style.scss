@@ -1,0 +1,23 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+
+@import 'base/variables';
+
+.container {
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@import 'blocks/fab';
+@import 'blocks/title';
+@import 'blocks/checkbox';
+@import 'blocks/button';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/offers';
+@import 'blocks/subscribe';
+@import 'blocks/questions';
+@import 'blocks/footer';
